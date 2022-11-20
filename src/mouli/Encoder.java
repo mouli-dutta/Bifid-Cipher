@@ -14,9 +14,7 @@ public class Encoder implements IBifid {
     }
 
     /**
-     * This method takes the key and
-     * the message to be encoded and
-     * returns the encoded bifid.
+     * This method uses the key and the message to be encoded and returns the encoded bifid.
      *
      * @return The encoded string.
      */
@@ -40,8 +38,7 @@ public class Encoder implements IBifid {
 
                     }
                     // join the row-column position
-                    return row.append(column)
-                            .toString();
+                    return row.append(column).toString();
                 };
         // return the encoded string.
         return bifid(key, message, convert);
