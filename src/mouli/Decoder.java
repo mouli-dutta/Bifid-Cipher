@@ -3,9 +3,9 @@ package mouli;
 import java.util.function.UnaryOperator;
 
 public class Decoder implements IBifid {
-    // the key string with which the message needs to be encoded
+    // the key string with which the message needs to be decoded
     private final String key;
-    // the string to be encoded.
+    // the string to be decoded.
     private final String message;
 
     public Decoder(String key, String message) {
@@ -14,9 +14,7 @@ public class Decoder implements IBifid {
     }
 
     /**
-     * This method takes the key and
-     * the encoded message and returns
-     * the decoded bifid.
+     * This method uses the key and the encoded message and returns the decoded bifid.
      *
      * @return The decoded string.
      */
