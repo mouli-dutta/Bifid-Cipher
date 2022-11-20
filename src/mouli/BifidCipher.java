@@ -17,8 +17,6 @@ import static java.util.stream.Collectors.joining;
  *                in separate lines
  *                as input.
  *
- * @author Minho
- * @since Feb 1, 2021
  */
 
 
