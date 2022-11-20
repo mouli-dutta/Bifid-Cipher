@@ -25,9 +25,7 @@ public interface IBifid {
 
         // If the message is empty
         // then return an empty string.
-        if (message.isEmpty()) {
-            return "";
-        }
+        if (message.isEmpty()) return "";     
 
         // Replcae all the symbols which
         // are not letters.
