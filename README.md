@@ -46,4 +46,4 @@ Row values followed by the column values. </br>
 And then we read them horizontally and find the corresponding letters from our Polybius square.</br></br>
 
 31 11 15 12 12 34 33 22 21 35 -->  F S A O O I H N R K</br></br>
-Output is in uppercase with no whitespace!
+Output should be in uppercase with no whitespace.
